@@ -1,4 +1,4 @@
-* {
+*:not(dialog) {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -56,4 +56,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+}
+
+.out-of-vault {
+  background-color: gray;
+}
+
+dialog::backdrop {
+  backdrop-filter: brightness(0.2);
 }
