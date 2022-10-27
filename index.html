@@ -15,6 +15,7 @@
         </div>
       </div>
     </header>
+    
     <div class="game">
       <div class="row">
         <div class="money" id="smallMoney">
@@ -79,21 +80,27 @@
         </div>
       </div>
     </div>
+
+    <footer>
+
+    </footer>
+    
     <div id="bank">
       <dialog id="bank-offer">
-        <h2>The bank offers you:</h2>
+        <!-- <h2>The bank:</h2> -->
         <div class="bankOffer"></div>
-        <p>They offer you: $<span id="bank-price-offer"></span></p>
-        <button id="Deal" class="buttons">Deal</button>
-        <button id="noDeal" class="buttons">No Deal</button>
+        <p><span id="offer-msg">The bank offers you: $</span><span id="bank-price-offer"></span></p>
+        <button id="Deal" class="buttons offer">Deal</button>
+        <button id="noDeal" class="buttons offer">No Deal</button>
+
+        <button id="restart" class="buttons restart hidden">Play again</button>
       </dialog>
-      <div id="finished" class="hidden">
+      <!-- <div id="finished" class="hidden">
         <div id="finishedContent">
           <div class="modalText">Congratulations, you won:</div>
           <div id="winnings"></div>
         </div>
-    </div>
+    </div> -->
     <script src="../script.js"></script>
   </body>
-  <footer></footer>
 </html>
