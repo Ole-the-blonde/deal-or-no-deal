@@ -77,16 +77,7 @@ vault.forEach((briefcase) => {
 });
 
 restartBtn.addEventListener("click", () => {
-  totalMoney = 0;
-  moneyLost = 0;
-  currentOffer = null;
-  prizeMoney = [];
-
-  shuffle(prizeDisplay);
-  prizeDisplay.forEach((prize) => {
-    prizeMoney.push(Number(prize.textContent.slice(1)));
-    totalMoney += Number(prize.textContent.slice(1));
-  });
+  window.location.reload();
 });
 
 noDeal.addEventListener("click", function () {
