@@ -23,7 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  height: 100%;
+  /* height: 100%; */
   gap: 2rem;
 }
 .row {
@@ -50,7 +50,7 @@ body {
   flex-wrap: wrap;
   flex-basis: 50px;
   height: 100px;
-
+  cursor: pointer;
   background-image: url("./Photos/briefcase.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -61,7 +61,31 @@ body {
 .out-of-vault {
   background-color: gray;
 }
+.chosen {
+  filter: brightness(0.5);
+}
 
 dialog::backdrop {
   backdrop-filter: brightness(0.2);
+}
+
+#winnings {
+  padding: 20px;
+  font-weight: 900;
+  font-size: 60px;
+}
+#finished {
+  box-sizing: border-box;
+}
+
+/* #bank {
+  color: white;
+} */
+
+#finished {
+  color: red;
+  visibility: hidden;
+}
+.hidden {
+  display: none;
 }
