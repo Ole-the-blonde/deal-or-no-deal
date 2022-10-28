@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+* {
+  font-family: "Russo One", sans-serif;
+}
+
 *:not(dialog) {
   margin: 0;
   padding: 0;
@@ -5,10 +10,10 @@
 }
 header img {
   display: block;
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
   object-fit: fill;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 body {
@@ -39,17 +44,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
-  /* justify-content: space-around; */
+  padding: 10px;
   background-color: rgb(254, 232, 87);
+  font-size: 20px;
+  border-radius: 10px black;
 }
 .briefcase {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  flex-basis: 50px;
-  height: 100px;
+  flex-basis: 100px;
+  height: 75px;
   cursor: pointer;
   background-image: url("./Photos/briefcase.png");
   background-size: contain;
@@ -65,27 +71,51 @@ body {
   filter: brightness(0.5);
 }
 
+#bank-offer {
+  max-height: 300px;
+  width: 50%;
+  padding: 30px;
+  background-image: url("./Photos/Money.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bank-offer section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  /* background-color: rgb(252, 193, 77); */
+}
+
+#Deal,
+#noDeal {
+  height: 40px;
+  margin: 20px 10px 0px;
+}
+#Deal img,
+#noDeal img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#restart {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(93, 133, 89);
+}
+
 dialog::backdrop {
   backdrop-filter: brightness(0.2);
 }
 
-#winnings {
-  padding: 20px;
-  font-weight: 900;
-  font-size: 60px;
-}
-#finished {
-  box-sizing: border-box;
-}
-
-/* #bank {
-  color: white;
-} */
-
-#finished {
-  color: red;
-  visibility: hidden;
-}
 .hidden {
   display: none;
 }

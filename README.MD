@@ -1,8 +1,41 @@
 # Deal-or-Nodeal-Game
 
-Rulles:
-The contestant chooses one of 26 numbered briefcases at the start of the game. Each briefcase contains a cash value from 1 to 1000000. on side displays the amounts still in play at any given moment. The contestant's chosen case will be hidden (first box selected). In the first round, the contestant chooses six cases to eliminate from play, one at a time. Each case is opened as it is chosen, and the amount inside is removed from the money tree.
+# Introduction
 
-After the sixth pick, Banker's offer to buy the contestant's case will be displayed. The contestant can accept the offer and end the game by clicking Deal or reject it by clicking Nodeal. Each time an offer is rejected, the contestant must play another round, eliminating progressively fewer cases: five in the second round, four in the third, three in the fourth, two in the fifth. Beyond the fifth round, the contestant eliminates one case at a time, receiving a new offer from the Banker after each.
+This was the very first project that I did at Ironhack. The brief for this project was to create a simple game using HTML, CSS, Javascript.
 
-The ninth and final offer comes when there are only two cases left in play: the one originally chosen by the contestant and one other. If the contestant rejects this final offer, he/she may either keep the chosen case or trade it for the other. The contestant receives the amount in the case taken.
+My game "Deal or No Deal" is based on a popular american TV show. The goal of the game is to walk out with the million dollars.
+
+# Installation
+
+To download the game and recreate it on your local machine, you have to undertake the following steps.
+
+Fork/Clone this repository.
+Open index.html and you will be able to play the game.
+
+or just simply follow the link bellow
+
+# Rules:
+
+1. The contestant chooses one of 26 numbered briefcases at the start of the game, which he thinks is the lucky one.
+
+Each briefcase contains a cash value from $1 to $1000000
+
+2. Then the player starts to open the boxes, one by one, choosing the once he thinks have lower amounts of cash.
+
+In the first round, the contestant chooses six cases to eliminate from play, one at a time. After each case the amount inside is removed from the money tree.
+
+3. After several openned boxes (7,14,19,24), there will be banker's proposition to either take his deal and finish the game, or keep playing, trying you further luck.
+
+4. Once only 2 boxes remain (the one you picked and one other box), you again have two options:
+   Either keep your case or choose the banker's deal.
+
+5. If the player refuses the banker's deal and the player's case had bigger amount, he wins the game.
+
+Also if player takes the banker's deal and his case was with a smaller amount, he also wins the game.
+
+Otherswise, if the chosen amount is less, the player has lost the game.
+
+# Hope you will enjoy the game:
+
+https://ole-the-blonde.github.io/deal-or-no-deal/
