@@ -25,9 +25,9 @@ Each briefcase contains a cash value from $1 to $1000000
 
 In the first round, the contestant chooses six cases to eliminate from play, one at a time. After each case the amount inside is removed from the money tree.
 
-3. After several openned boxes (7,14,19,24), there will be banker's proposition to either take his deal and finish the game, or keep playing, trying you further luck.
+3. After several opened boxes (7,14,19,24), there will be banker's proposition to either take his deal and finish the game, or keep playing, trying your further luck.
 
-4. Once only 2 boxes remain (the one you picked and one other box), you again have two options:
+4. Once only 2 boxes remain (the one you picked and last available box), you again have two options:
    Either keep your case or choose the banker's deal.
 
 5. If the player refuses the banker's deal and the player's case had bigger amount, he wins the game.

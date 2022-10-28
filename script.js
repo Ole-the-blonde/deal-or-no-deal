@@ -31,7 +31,7 @@ noDeal.addEventListener("click", function () {
   if (vault.length === 1) {
     if (chosenBriefcase.value > currentOffer) {
       offerMsg.textContent = "Congratulations! You have won: $";
-      currentOffer.textContent = chosenBriefcase.value;
+      priceOffer.textContent = chosenBriefcase.value;
     } else {
       offerMsg.textContent =
         "You lost, The banker beat you! you should have taken the $";
